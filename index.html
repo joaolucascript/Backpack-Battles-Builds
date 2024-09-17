@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backpack Battles Builds</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Game Logo" id="gameLogo" />
+      <h1>Backpack Battles Builds</h1>
+      <nav aria-label="Hero Selection">
+        <div id="heroButtons">
+          <button id="berserkerBtn" aria-label="Berserker Build">
+            <img src="images/characters/berserker.png" alt="Berserker" />
+            Berserker
+          </button>
+          <button id="pyromancerBtn" aria-label="Pyromancer Build">
+            <img src="images/characters/pyromancer.png" alt="Pyromancer" />
+            Pyromancer
+          </button>
+          <button id="rangerBtn" aria-label="Ranger Build">
+            <img src="images/characters/ranger.png" alt="Ranger" />
+            Ranger
+          </button>
+          <button id="reaperBtn" aria-label="Reaper Build">
+            <img src="images/characters/reaper.png" alt="Reaper" />
+            Reaper
+          </button>
+          <a
+            href="https://backpackbattles.wiki.gg/wiki/Items"
+            target="_blank"
+            id="allItemsLink"
+          >
+            <button id="allItemsBtn" aria-label="All Items">
+              <img src="images/items.webp" alt="Items" />
+              All Items
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="buildsContainer"
+        aria-live="polite"
+        aria-atomic="true"
+      ></section>
+    </main>
+
+    <div id="overlay" class="hidden" aria-hidden="true">
+      <div id="overlayContent">
+        <button id="overlayClose" aria-label="Close">&times;</button>
+        <div id="galleryContainer">
+          <!-- Novo contêiner para a galeria -->
+          <button id="prevImage" class="nav-btn">◀</button>
+          <img id="overlayImage" src="" alt="Build Image" />
+          <button id="nextImage" class="nav-btn">▶</button>
+        </div>
+        <div id="overlayDetails">
+          <h2 id="overlayTitle"></h2>
+          <p><strong>Subclass:</strong> <span id="overlaySubclass"></span></p>
+          <p><strong>Items:</strong> <span id="overlayItems"></span></p>
+          <p>
+            <strong>Description:</strong> <span id="overlayDescription"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Made with <span style="color: #e25555">&#10084;</span> by
+        <a href="https://github.com/joaolucascript" target="_blank"
+          >joaolucascript</a
+        >
+      </p>
+    </footer>
+
+    <script src="builds.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
