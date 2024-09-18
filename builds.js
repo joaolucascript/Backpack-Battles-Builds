@@ -30,7 +30,7 @@ const pyromancerBuilds = [
     title: 'Flame Whip',
     subclass: 'Frozen Flame',
     items: 'Thorn Whip',
-    gallery: ['pyromancer1.webp'],
+    gallery: ['pyromancer1.png'],
     description: 'Buy as many Prismatic Orbs and ice items as you can',
     tier: 'S',
   },
