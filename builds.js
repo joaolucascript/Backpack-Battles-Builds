@@ -3,18 +3,16 @@ const berserkerBuilds = [
     title: 'Busted Blade',
     subclass: 'Wolf Emblem',
     items: 'Greatsword, Box of Riches',
-    gallery: ['berserker1.webp', 'berserker2.png'],
-    description:
-      'Esta é a build para o Berserker focada em dano corpo-a-corpo.',
+    gallery: ['berserker1.webp'],
+    description: 'Try to use all the pet spaces',
     tier: 'S',
   },
   {
     title: 'Magic Torch + Manathirst',
     subclass: 'Wolf Emblem',
     items: 'Manapotion, Torch',
-    gallery: ['berserker2.png'],
-    description:
-      'Outra build poderosa para o Berserker com foco em resistência.',
+    gallery: ['berserker2.png', 'berserker2-1.png'],
+    description: 'Try to use all the pet spaces',
     tier: 'S',
   },
   {
@@ -22,8 +20,7 @@ const berserkerBuilds = [
     subclass: 'Deerwood',
     items: 'Mana Orb',
     gallery: ['berserker3.webp'],
-    description:
-      'Outra build poderosa para o Berserker com foco em resistência.',
+    description: '',
     tier: 'A',
   },
 ];
@@ -34,15 +31,16 @@ const pyromancerBuilds = [
     subclass: 'Frozen Flame',
     items: 'Thorn Whip',
     gallery: ['pyromancer1.webp'],
-    description: 'Build ideal para Pyromancer com habilidades de fogo.',
+    description: 'Buy as many Prismatic Orbs and ice items as you can',
     tier: 'S',
   },
   {
     title: 'Flame Whip',
     subclass: 'Dark Lantern',
     items: 'Thorn Whip',
-    gallery: ['pyromancer2.webp'],
-    description: 'Build de Pyromancer focada em controle de multidões.',
+    gallery: ['pyromancer2.png'],
+    description:
+      "Buy as many Maneki-neko's, Prismatic Orbs and Glowing Crown's as possible",
     tier: 'A',
   },
   {
@@ -50,7 +48,7 @@ const pyromancerBuilds = [
     subclass: 'Burning Banner',
     items: 'Lightsaber, Oil Lamp',
     gallery: ['pyromancer3.webp'],
-    description: 'Build de Pyromancer focada em controle de multidões.',
+    description: '',
     tier: 'A',
   },
   {
@@ -58,7 +56,8 @@ const pyromancerBuilds = [
     subclass: 'Dark Lantern',
     items: 'Pan, Corrupted Crystal, Lightsaber',
     gallery: ['pyromancer4.webp'],
-    description: 'Build de Pyromancer focada em controle de multidões.',
+    description:
+      "You'll need at least 3 Corrupted Crystal's, if you come early it's a good build",
     tier: 'A',
   },
   {
@@ -66,7 +65,7 @@ const pyromancerBuilds = [
     subclass: 'Burning Banner',
     items: 'Hungry Blade, Thorn Whip',
     gallery: ['pyromancer6.png'],
-    description: 'Quanto mais gatos e orbes melhor.',
+    description: "Buy as many Maneki-neko's and Prismatic Orbs as possible",
     tier: 'A',
   },
   {
@@ -74,7 +73,7 @@ const pyromancerBuilds = [
     subclass: 'Burning Banner',
     items: 'Pan, Heroic Potion',
     gallery: ['pyromancer7.webp'],
-    description: 'Build de Pyromancer focada em controle de multidões.',
+    description: '',
     tier: 'B',
   },
 ];
@@ -85,7 +84,7 @@ const rangerBuilds = [
     subclass: 'Piercing Arrow',
     items: 'Whetstone, Gloves of Haste, Oil Lamp',
     gallery: ['ranger1.png'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: "Buff the damage of the Falcon Blade and buy Prismatic Orb's",
     tier: 'S',
   },
   {
@@ -93,7 +92,7 @@ const rangerBuilds = [
     subclass: 'Mega Clover',
     items: "Whetstone, Fortuna's Hope",
     gallery: ['ranger2.webp'],
-    description: 'Build ágil para Ranger focada em ataques rápidos.',
+    description: '',
     tier: 'B',
   },
   {
@@ -101,7 +100,7 @@ const rangerBuilds = [
     subclass: 'Piercing Arrow',
     items: 'Mana Orb, Gloves of Haste',
     gallery: ['ranger3.webp'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: 'Early Mana Orbs',
     tier: 'B',
   },
   {
@@ -109,7 +108,7 @@ const rangerBuilds = [
     subclass: 'Piercing Arrow',
     items: 'Fancy Fencing Rapier, Mana Orb, Gloves of Haste',
     gallery: ['ranger4.webp'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: 'Early Gloves of Haste and Rapier',
     tier: 'A',
   },
   {
@@ -117,7 +116,7 @@ const rangerBuilds = [
     subclass: 'Big Bowl',
     items: 'Thorn Whip, Heroic Potion',
     gallery: ['ranger5.webp'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: '',
     tier: 'A',
   },
   {
@@ -125,7 +124,7 @@ const rangerBuilds = [
     subclass: 'Mega Clover',
     items: 'Hammer, Dagger, Strong Heroic Potion, Blood Amulet',
     gallery: ['ranger6.webp'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: '',
     tier: 'B',
   },
   {
@@ -133,7 +132,15 @@ const rangerBuilds = [
     subclass: 'Yggdrasil Leaf',
     items: 'Pan, Heroic Potion',
     gallery: ['ranger7.png'],
-    description: 'Build de Ranger com foco em ataques à distância.',
+    description: '',
+    tier: 'A',
+  },
+  {
+    title: 'Holy Spear',
+    subclass: 'Big Bowl',
+    items: 'Hero Sword, Goobert, Holy Spear',
+    gallery: ['ranger8.png'],
+    description: '',
     tier: 'A',
   },
 ];
@@ -143,8 +150,8 @@ const reaperBuilds = [
     title: 'Falcon Blade',
     subclass: 'Nocturnal Lock Lifter',
     items: 'Gloves of Haste, Oil Lamp, Vampiric Items',
-    gallery: ['reaper1.webp'],
-    description: 'Build sombria para Reaper, focada em ataques críticos.',
+    gallery: ['reaper1.png', 'reaper  1-1.png'],
+    description: 'You need a lot of vampiric items',
     tier: 'S',
   },
   {
@@ -152,7 +159,7 @@ const reaperBuilds = [
     subclass: 'Mr. Struggles',
     items: 'Mana Orb, Demonic Flask, Deck of Cards, Ruby Egg',
     gallery: ['reaper2.webp'],
-    description: 'Build de Reaper com foco em dano alto e golpes poderosos.',
+    description: '',
     tier: 'A',
   },
   {
@@ -160,7 +167,7 @@ const reaperBuilds = [
     subclass: 'Nocturnal Lock Lifter',
     items: 'Mana Potion, Mana Orb, Hungry Blade, Deck of Cards, Ruby Egg',
     gallery: ['reaper3.webp'],
-    description: 'Build sombria para Reaper, focada em ataques críticos.',
+    description: '',
     tier: 'A',
   },
   {
@@ -168,7 +175,7 @@ const reaperBuilds = [
     subclass: 'Cauldron',
     items: 'Amulet of Feasting, Pan, Heroic Potion, Cheese',
     gallery: ['reaper5.webp'],
-    description: 'Build sombria para Reaper, focada em ataques críticos.',
+    description: '',
     tier: 'A',
   },
 ];
