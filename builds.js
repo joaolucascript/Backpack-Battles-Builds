@@ -150,7 +150,7 @@ const reaperBuilds = [
     title: 'Falcon Blade',
     subclass: 'Nocturnal Lock Lifter',
     items: 'Gloves of Haste, Oil Lamp, Vampiric Items',
-    gallery: ['reaper1.png', 'reaper  1-1.png'],
+    gallery: ['reaper1.png', 'reaper1-1.png'],
     description: 'You need a lot of vampiric items',
     tier: 'S',
   },
