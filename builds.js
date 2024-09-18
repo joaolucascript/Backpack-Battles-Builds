@@ -15,7 +15,7 @@ const berserkerBuilds = [
     gallery: ['berserker2.png'],
     description:
       'Outra build poderosa para o Berserker com foco em resistência.',
-    tier: 'A',
+    tier: 'S',
   },
   {
     title: 'Spike Staff',
@@ -35,7 +35,7 @@ const pyromancerBuilds = [
     items: 'Thorn Whip',
     gallery: ['pyromancer1.webp'],
     description: 'Build ideal para Pyromancer com habilidades de fogo.',
-    tier: 'A',
+    tier: 'S',
   },
   {
     title: 'Flame Whip',
@@ -75,7 +75,7 @@ const pyromancerBuilds = [
     items: 'Pan, Heroic Potion',
     gallery: ['pyromancer7.webp'],
     description: 'Build de Pyromancer focada em controle de multidões.',
-    tier: 'A',
+    tier: 'B',
   },
 ];
 
@@ -86,7 +86,7 @@ const rangerBuilds = [
     items: 'Whetstone, Gloves of Haste, Oil Lamp',
     gallery: ['ranger1.png'],
     description: 'Build de Ranger com foco em ataques à distância.',
-    tier: 'A',
+    tier: 'S',
   },
   {
     title: 'Hero Longsword',
@@ -94,7 +94,7 @@ const rangerBuilds = [
     items: "Whetstone, Fortuna's Hope",
     gallery: ['ranger2.webp'],
     description: 'Build ágil para Ranger focada em ataques rápidos.',
-    tier: 'A',
+    tier: 'B',
   },
   {
     title: 'Magic Staff',
@@ -102,7 +102,7 @@ const rangerBuilds = [
     items: 'Mana Orb, Gloves of Haste',
     gallery: ['ranger3.webp'],
     description: 'Build de Ranger com foco em ataques à distância.',
-    tier: 'A',
+    tier: 'B',
   },
   {
     title: 'Fancy Fencing Rapier',
@@ -126,7 +126,7 @@ const rangerBuilds = [
     items: 'Hammer, Dagger, Strong Heroic Potion, Blood Amulet',
     gallery: ['ranger6.webp'],
     description: 'Build de Ranger com foco em ataques à distância.',
-    tier: 'A',
+    tier: 'B',
   },
   {
     title: 'Ranger + Pyromancer Item',
@@ -145,7 +145,7 @@ const reaperBuilds = [
     items: 'Gloves of Haste, Oil Lamp, Vampiric Items',
     gallery: ['reaper1.webp'],
     description: 'Build sombria para Reaper, focada em ataques críticos.',
-    tier: 'A',
+    tier: 'S',
   },
   {
     title: 'Chonk Unhealing',
